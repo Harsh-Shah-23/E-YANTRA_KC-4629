@@ -1,0 +1,32 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 8904931745
+  starting_time:
+    nanoseconds_since_epoch: 1760980311048333294
+  message_count: 101
+  topics_with_message_count:
+    - topic_metadata:
+        name: /_fruit_info
+        type: std_msgs/msg/String
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3
+    - topic_metadata:
+        name: tf
+        type: tf2_msgs/msg/TFMessage
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 98
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - my_bag_0.db3
+  files:
+    - path: my_bag_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1760980311048333294
+      duration:
+        nanoseconds: 8904931745
+      message_count: 101

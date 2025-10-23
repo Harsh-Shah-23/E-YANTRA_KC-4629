@@ -1,0 +1,38 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 28786772025
+  starting_time:
+    nanoseconds_since_epoch: 1760778417053008744
+  message_count: 44863
+  topics_with_message_count:
+    - topic_metadata:
+        name: /clock
+        type: rosgraph_msgs/msg/Clock
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 26753
+    - topic_metadata:
+        name: joint_states
+        type: sensor_msgs/msg/JointState
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 13376
+    - topic_metadata:
+        name: tcp_pose_raw
+        type: geometry_msgs/msg/PoseStamped
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 4734
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - my_bag_0.db3
+  files:
+    - path: my_bag_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1760778417053008744
+      duration:
+        nanoseconds: 28786772025
+      message_count: 44863
